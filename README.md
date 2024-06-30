@@ -3,6 +3,8 @@
 ## Overview
 
 This is my personal portfolio, showcasing my skills and projects in front-end development. The portfolio includes structured pages with information about me, my technical and professional skills, as well as detailed descriptions of completed projects. The portfolio is designed with best practices in mind, providing easy navigation and an attractive design.
+This project was completed as part of a bootcamp training program, demonstrating the practical application of skills learned in web development, including front-end and back-end technologies.
+
 
 ## Features
 
@@ -12,12 +14,14 @@ This is my personal portfolio, showcasing my skills and projects in front-end de
 - **GitHub Integration**: Links to GitHub repositories for easy access to project code.
 - **Easy Navigation**: User-friendly navigation to help visitors easily explore the content.
 - **Aesthetic Design**: Clean and modern design to create a professional impression.
+  
 
 ## Technologies Used
 
 - **HTML**: For structuring the web pages.
 - **CSS**: For styling the web pages.
 - **JavaScript**: For implementing the functionality and interactivity.
+
 
 ## Running the Project Locally
 
@@ -56,6 +60,7 @@ https://rostovks94.github.io/Personal-Portfolio-Enhancement-Project/
 
 This README provides complete guidance for users to use your application in two ways.
 
+
 ## Project Structure
 
 The project consists of the following main components:
@@ -86,6 +91,7 @@ The project consists of the following main components:
 ├── index.html
 ├── projects.html
 ├── skills.html
+
 
 ## Conclusion
 
