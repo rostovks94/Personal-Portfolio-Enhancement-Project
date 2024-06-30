@@ -6,12 +6,12 @@ This is my personal portfolio, showcasing my skills and projects in front-end de
 
 ## Features
 
-**Structured Pages**: Includes pages with detailed information about me, my skills, and my projects.
-**Responsive Design**: Ensures the portfolio looks great on all devices, from desktops to mobile phones.
-**Interactive Elements**: Hover effects and animations to enhance user experience.
-**GitHub Integration**: Links to GitHub repositories for easy access to project code.
-**Easy Navigation**: User-friendly navigation to help visitors easily explore the content.
-**Aesthetic Design**: Clean and modern design to create a professional impression.
+- **Structured Pages**: Includes pages with detailed information about me, my skills, and my projects.
+- **Responsive Design**: Ensures the portfolio looks great on all devices, from desktops to mobile phones.
+- **Interactive Elements**: Hover effects and animations to enhance user experience.
+- **GitHub Integration**: Links to GitHub repositories for easy access to project code.
+- **Easy Navigation**: User-friendly navigation to help visitors easily explore the content.
+- **Aesthetic Design**: Clean and modern design to create a professional impression.
 
 ## Technologies Used
 
