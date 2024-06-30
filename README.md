@@ -35,7 +35,7 @@ You can simply double-click on the index.html file in your file explorer, or you
 
 open index.html
 
-**Using a Local Web Server (optional but recommended):**
+**Using a Local Web Server:**
 
 You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
 If you have Python installed, you can run a simple HTTP server:
