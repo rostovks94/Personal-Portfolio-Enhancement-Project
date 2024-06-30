@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400&display=swap');
+
+body {
+    font-family: 'Libre Bodoni', serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+nav ul li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 51, 102, 0.5);
+    color: #fff;
+    box-shadow: 0 0 5px #3399ff;
+}
+
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.social-icons a {
+    transition: transform 0.3s, border 0.3s;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+.social-icons a:nth-child(2) img {
+    position: relative;
+    top: -5px; 
+}
+
+.social-icons a:nth-child(3) img {
+    position: relative;
+    top: -3px; 
+}
+
+.social-icons a:hover img {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 5px #3399ff);
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin-left: 270px;
+    overflow-y: auto;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.values, .projects-achievements, .interests {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-images img {
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ccc;
+}
+
+footer a {
+    color: #0a84ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0;
+    }
+    
+    nav ul li {
+        margin-bottom: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .about {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-content {
+        padding: 10px;
+    }
+    
+    .values, .projects-achievements, .interests {
+        padding: 15px;
+    }
+    
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
