@@ -21,7 +21,7 @@ This is my personal portfolio, showcasing my skills and projects in front-end de
 
 To run this project locally, follow these steps:
 
-### Clone the Repository:
+**Clone the Repository:**
 
 git clone https://github.com/rostovks94/Personal-Portfolio-Enhancement-Project.git
 
