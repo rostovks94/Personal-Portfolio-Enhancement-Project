@@ -32,9 +32,9 @@ To run this project locally, follow these steps:
 git clone https://github.com/rostovks94/Personal-Portfolio-Enhancement-Project.git
 
 **Navigate to the Project Directory:**
-
+```bash 
 cd Personal-Portfolio-Enhancement-Project 
-
+```
 **Open index.html in your Browser:**
 
 You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
@@ -47,9 +47,9 @@ You can use a local web server to ensure all functionalities work correctly, esp
 If you have Python installed, you can run a simple HTTP server:
 
 **For Python 3.x** 
-
+```bash 
 python -m http.server 8000
-
+```
 Then, navigate to http://localhost:8000 in your web browser.
 
 **Through GitHub Pages:**
