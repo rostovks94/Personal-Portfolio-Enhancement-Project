@@ -64,7 +64,7 @@ This README provides complete guidance for users to use your application in two 
 ## Project Structure
 
 The project consists of the following main components:
-
+```bash
 /Personal Portfolio Enhancement Project
 ├── /css
 │   ├── about.css
@@ -91,7 +91,7 @@ The project consists of the following main components:
 ├── index.html
 ├── projects.html
 ├── skills.html
-
+```
 
 ## Conclusion
 
